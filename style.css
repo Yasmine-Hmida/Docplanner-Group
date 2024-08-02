@@ -12,8 +12,11 @@ body{
 
 .navbar{
     position:sticky;
+    top: 0;
+    background-color: white;
     margin-top: 20px;
     margin-bottom: 50px;
+    padding:10px;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,6 +38,10 @@ body{
 }
 
 #selected{
+    color:#00b39b;
+}
+
+.selected:hover{
     color:#00b39b;
 }
 
@@ -185,17 +192,17 @@ option{
 }
 
 #jameda{
-    width:100px;
+    width:90px;
 }
 
 #mydredm{
     height:30px;
-    width:100px;
+    width:120px;
 }
 
 #feegow{
     height:30px;
-    width:100px;
+    width:110px;
 }
 
 #globalcompagny{
@@ -216,7 +223,7 @@ option{
 .Bigsection2{
     background-color: #e5faf8;
     display:grid;
-    grid-template-columns: 100px 400px 400px 100px;
+    grid-template-columns: 50px 400px 400px 50px;
     grid-template-rows: 20px 50px 500px 50px;
     column-gap:200px;
 }
@@ -247,6 +254,11 @@ option{
     "patient doctor"
     "patient .";
 
+}
+
+.grid_heading{
+    color:#00b39b;
+    font-weight: lighter;
 }
 
 .small{
@@ -314,7 +326,7 @@ h5{
     align-items: center;
 }
 
-div h1,p,h5,h6{
+div h1,#big_paragraph,h5,h6{
     text-align: center;
 }
 
@@ -332,6 +344,10 @@ div h1,p,h5,h6{
     margin:5px;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+
+.cities:hover{
+    box-shadow: 0 0 10px 10px lightgray;
 }
 
 .cities_name{
